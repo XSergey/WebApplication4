@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "EPPlus": "4.1.0",
+    "EpplusExcel": "1.0.0",
     "Microsoft.ApplicationInsights.AspNetCore": "1.0.1",
+    "Microsoft.AspNet.Hosting": "1.0.0-rc1-final",
+    "Microsoft.AspNetCore.Hosting": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.1",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",

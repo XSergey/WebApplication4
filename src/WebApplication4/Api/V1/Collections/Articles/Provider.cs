@@ -8,21 +8,21 @@ namespace WebApplication4.Api.V1.Collections.Articles
     /// This object use by mongodb provider class.
     /// </summary>
     [BsonIgnoreExtraElements]
-    public class Article
+    public class Provider
     {
         [BsonId]
-        public ObjectId ArticleId { get; set; }
+        public ObjectId ProviderId { get; set; }
 
-        [BsonElement("number")]
-        public string ArticleNumber { get; set; }
+        [BsonElement("name")]
+        public string ProviderName { get; set; }
 
-        [BsonElement("brand")]
-        public string ArticleBrand { get; set; }
+        [BsonElement("mark_up")]
+        public int ProviderMarkUp { get; set; }
 
         [BsonElement("status")]
-        public int ArticleStatus { get; set; }
+        public int ProviderStatus { get; set; }
 
         [BsonElement("is_imported")]
-        public int ArticleIsImported { get; set; }
+        public int ProviderIsImported { get; set; }
     }
 }

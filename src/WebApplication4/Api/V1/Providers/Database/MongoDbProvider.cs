@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace WebApplication3.Api.V1.Providers.Database
+namespace WebApplication4.Api.V1.Providers.Database
 {
     public class MongoDbProvider
     {

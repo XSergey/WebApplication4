@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
-namespace WebApplication3.Api.V1.Providers.Clients.Ftp.Contracts
+namespace WebApplication4.Api.V1.Providers.Clients.Ftp.Contracts
 {
     public class FtpProviderBase
     {
